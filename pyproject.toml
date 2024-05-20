@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ultraleap-osc-sender"
+version = "0.1.0"
+description = ""
+authors = ["Charles Martin <cpm@charlesmartin.com.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+build = "^1.2.1"
+cffi = "^1.16.0"
+opencv-python = "^4.9.0.80"
+numpy = "^1.26.4"
+leapc-cffi = { path = "leapc-cffi/dist/leapc_cffi-0.0.1.tar.gz", develop = false}
+leap = { path = "leapc-python-api", develop = true }
+# leapc-python-bindings = { git = "https://github.com/ultraleap/leapc-python-bindings.git" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
