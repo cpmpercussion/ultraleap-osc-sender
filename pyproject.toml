@@ -14,6 +14,8 @@ numpy = "^1.26.4"
 leapc-cffi = { path = "leapc-cffi/dist/leapc_cffi-0.0.1.tar.gz", develop = false}
 leap = { path = "leapc-python-api", develop = true }
 # leapc-python-bindings = { git = "https://github.com/ultraleap/leapc-python-bindings.git" }
+python-osc = "^1.8.3"
+mido = "^1.3.2"
 
 
 [build-system]
